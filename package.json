@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:log-helper.helloWorld"
+		"onCommand:log-helper.add"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "log-helper.helloWorld",
-				"title": "Hello World"
+				"command": "log-helper.add",
+				"title": "Add Logs"
 			}
 		]
 	},
